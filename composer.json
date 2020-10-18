@@ -1,0 +1,11 @@
+{
+    "name": "drupal/commerce_exchanger_nbu",
+    "type": "drupal-module",
+    "description": "Commerce 2 Exchange Rates from National Bank of Ukraine",
+    "homepage": "https://www.drupal.org/project/commerce_exchanger_nbu",
+    "license": "GPL-2.0+",
+    "require": {
+        "drupal/commerce_exchanger": "^1.12"
+    },
+    "minimum-stability": "dev"
+}
