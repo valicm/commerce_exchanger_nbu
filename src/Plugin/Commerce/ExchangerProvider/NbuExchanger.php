@@ -15,7 +15,8 @@ use Drupal\Component\Serialization\Json;
  *   display_label = "National Bank of Ukraine",
  *   historical_rates = TRUE,
  *   base_currency = "UAH",
- *   refresh_once = TRUE
+ *   refresh_once = TRUE,
+ *   transform_rates=TRUE,
  * )
  */
 class NbuExchanger extends ExchangerProviderRemoteBase {
