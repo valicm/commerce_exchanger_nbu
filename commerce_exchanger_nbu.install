@@ -12,9 +12,9 @@ function commerce_exchanger_nbu_requirements($phase) {
   $requirements = [];
 
   if ($phase == 'install') {
-    $currency_hrk = \Drupal::entityTypeManager()->getStorage('commerce_currency')->load('UAH');
+    $currency = \Drupal::entityTypeManager()->getStorage('commerce_currency')->load('UAH');
 
-    if (empty($currency_hrk)) {
+    if ($currency === NULL) {
       $requirements['commerce_exchanger_nbu'] = [
         'title' => t('UAH currency'),
         'description' => t('Commerce Exchanger NBU requires that you have UAH currency enabled.'),
