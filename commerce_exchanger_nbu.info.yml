@@ -1,7 +1,7 @@
 name: 'Commerce Exchanger NBU'
 type: module
 description: 'Commerce 2 Exchange Rates from National Bank of Ukraine (NBU)'
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10
 package: Commerce (Contrib)
 
 dependencies:
