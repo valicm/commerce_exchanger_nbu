@@ -2,9 +2,8 @@
 
 namespace Drupal\commerce_exchanger_nbu\Plugin\Commerce\ExchangerProvider;
 
-use Drupal\commerce_exchanger\Plugin\Commerce\ExchangerProvider\ExchangerProviderRemoteBase;
 use Drupal\Component\Serialization\Json;
-
+use Drupal\commerce_exchanger\Plugin\Commerce\ExchangerProvider\ExchangerProviderRemoteBase;
 
 /**
  * Provides the National Bank of Ukraine exchange rates.
